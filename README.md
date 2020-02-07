@@ -1,4 +1,5 @@
 # Anavrin
 A windows 10 fashioned college notes archive.
 
-hosted at: ```rahulgaur.rf.gd```
+Infinity Free: ```rahulgaur.rf.gd```
+Github       : ```https://https-rahul.github.io/Anavrin/```
