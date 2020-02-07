@@ -1,2 +1,3 @@
 # Anavrin
-A college notes archive.
+A windows 10 fashioned college notes archive.
+
