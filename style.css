@@ -1,5 +1,5 @@
 
-
+/* Declaring and installing fonts */
 @font-face {
     src: url("assets/fonts/segoeuib.ttf");
     font-family: Segoe UI;
@@ -19,7 +19,7 @@ input[type="checkbox"]{
 }
 
 /* theme switch button properties */
-.check{
+.check {
     margin-top: -665px;
     margin-left: 1423px;
     position: relative;
@@ -47,17 +47,17 @@ h1 {
     font-size: 150px;
     margin-left: 100px;
     margin-bottom: -1px;
-    margin-top: 115px;
+    margin-top: 191px;
 }
 
 /* a class notes archive */
 #TagLine {
     color: #8664c3;
-    font-family: "Segoe UI light;
+    font-family: "Segoe UI light";
     font-size: 50px;
     /* font-weight: lighter; */
     margin-left: 100px;
-    margin-top: 23px;
+    margin-top: 73px;
 }
 
 /* link properties of buttons: About & Team */
@@ -69,11 +69,11 @@ a {
 
 /* Anavrin logo watermark */
 .watermark{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     opacity: 0.2;
     margin-left: 1146px;
-    margin-top: -139px;
+    margin-top: -269px;
 }
 
 /* text placement of footer elements: About & Team */
@@ -81,11 +81,18 @@ a {
     margin-right: 81px;
     font-size: 40px;
     margin-left: 64px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 /* Dark mode background settings */
 .dark-mode{
     background-color: black;
     color: white;
+}
+
+/* back button placement */
+.back{
+    margin-top: 542px;
+    margin-left: 1342px;
+    cursor: auto;
 }
