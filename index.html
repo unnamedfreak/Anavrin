@@ -5,30 +5,31 @@
 <head>
   <title>Anavrin</title>
   <link rel="logo" href="favicon.ico">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
-
-  <h1>Anavrin</h1>
-  <div class="line"></div>
-  <p id="TagLine">A class notes archive</p>
-  <!-- <img class="watermark" src="./assets/doc logo-02.png"> -->
-  <ul class="credits">
-    <a class="foot" href=""><strong>Team</strong></a>
-    <a class="foot" href="about.html"><strong>About</strong></a>
-  </ul>
-
-  <!-- Darkmode switch -->
-  <label>
-    <input type="checkbox" onclick="darkmode()">
-    <span class="check"></span>
-   </label>
-
-   <!-- 2nd page button -->
-  <input type="image" id="next" src="assets/back.png" />
+  <!-- Watermark -->
+  <img class="watermark" src="./assets/doc logo-02.png"> 
+  <!-- Toggle Theme Button, changed to an actual button -->
+  <button id="toggleTheme" onclick="darkmode()"></button>
+  <!-- Container, everything else is inside of this. -->
+  <div id="container">
+    <h1>Anavrin</h1>
+    <!-- Using hr as it is made for this -->
+    <hr id="line">
+    <p id="tagline">A class notes archive</p>
+    <!-- Changed this button to a proper button instead of the checkbox -->
+    <button id="next"></button>
+    <!-- Using nav as that is the standard navbar element -->
+    <nav>
+      <a href="#">Team</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
 
   <script src="script.js" charset="UTF-8"></script>
+
 </body>
 
 </html>
